@@ -1,0 +1,19 @@
+{
+  "name": "pink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwicked/pink.git"
+  },
+  "author": "markwicked",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markwicked/pink/issues"
+  },
+  "homepage": "https://github.com/markwicked/pink#readme"
+}
