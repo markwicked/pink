@@ -16,12 +16,11 @@ gulp.task('sass', function() {
 
 gulp.task('serve', ['sass'], function() {
   browserSync.init({
-    server: 'source'
+    server: 'source',
+    notify: false
   });
 
   gulp.watch('source/sass/style.scss', ['sass']);
   gulp.watch('source/*.html').on('change', browserSync.reload);
   gulp.watch('source/js/**/*.js').on('change', browserSync.reload);
 });
-
-gulp.task('default', ['serve']);
