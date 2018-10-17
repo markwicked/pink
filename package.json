@@ -37,5 +37,7 @@
     "source/img/**/*.svg",
     "source/sass/**/*.scss"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "svgxuse": "^1.2.6"
+  }
 }
