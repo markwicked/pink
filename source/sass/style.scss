@@ -1,6 +1,5 @@
-.form-main {
-  display: flex;
-  flex-direction: column;
-  padding-top: 14px;
-  padding-bottom: 32px;
-}
+// Global
+@import "global/normalize.scss";
+@import "global/mixins.scss";
+@import "global/variables.scss";
+@import "global/scaffolding.scss";
