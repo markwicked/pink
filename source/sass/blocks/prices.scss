@@ -7,4 +7,19 @@
     background-color: #283645;
     color: #ffffff;
   }
+  td {
+    line-height: 2.1;
+  }
+}
+
+.prices__program {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.prices__cost {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.25;
 }
