@@ -1,3 +1,12 @@
 .menu-list {
   @include list-reset();
+  color: #ffffff;
+}
+
+.menu-list__link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
