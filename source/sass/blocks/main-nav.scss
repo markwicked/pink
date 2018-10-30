@@ -1,5 +1,5 @@
 .main-nav {
-  background-color: #283645;
+  background-color: $color-darkblue;
 }
 
 .main-nav__toggle {
@@ -7,7 +7,6 @@
   width: 50px;
   height: 24px;
   background: transparent url("../img/icon-menu-cross.svg") no-repeat;
-  background-size: 50px 24px;
   border: none;
   &:hover {
     cursor: pointer;
