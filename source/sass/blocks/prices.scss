@@ -1,0 +1,25 @@
+.prices {
+  text-transform: uppercase;
+}
+
+.prices__table {
+  th {
+    background-color: $color-darkblue;
+    color: #ffffff;
+  }
+  td {
+    line-height: 2.1;
+  }
+}
+
+.prices__program {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.prices__cost {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.25;
+}

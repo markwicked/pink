@@ -1,6 +1,23 @@
-.form-main {
-  display: flex;
-  flex-direction: column;
-  padding-top: 14px;
-  padding-bottom: 32px;
-}
+// Global
+@import "global/normalize";
+@import "global/mixins";
+@import "global/variables";
+@import "global/scaffolding";
+
+// Blocks
+@import "blocks/page-header";
+@import "blocks/main-nav";
+@import "blocks/menu-list";
+@import "blocks/logo";
+@import "blocks/promo";
+@import "blocks/button";
+@import "blocks/app-platforms";
+@import "blocks/heading";
+@import "blocks/advantages";
+@import "blocks/reviews";
+@import "blocks/prices";
+@import "blocks/contacts";
+@import "blocks/photo-main";
+@import "blocks/photos";
+@import "blocks/post";
+@import "blocks/social";

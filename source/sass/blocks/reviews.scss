@@ -1,0 +1,7 @@
+.reviews__list {
+  @include list-reset();
+}
+
+.reviews__text {
+  line-height: 2.1;
+}

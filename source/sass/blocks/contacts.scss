@@ -1,0 +1,13 @@
+.contacts__list {
+  @include list-reset();
+}
+
+.contacts__caption {
+  display: block;
+}
+
+.contacts__info {
+  font-size: 24px;
+  line-height: 1.2;
+  color: $color-pink;
+}

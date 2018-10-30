@@ -1,0 +1,18 @@
+.photos__list {
+  @include list-reset();
+}
+
+.photos__comment {
+  background-color: $background-grey;
+}
+
+.photos__time {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.photos__caption {
+  line-height: 2.14;
+}

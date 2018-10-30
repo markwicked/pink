@@ -1,0 +1,14 @@
+.main-nav {
+  background-color: $color-darkblue;
+}
+
+.main-nav__toggle {
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  background: transparent url("../img/icon-menu-cross.svg") no-repeat;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}

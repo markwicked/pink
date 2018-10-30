@@ -1,0 +1,10 @@
+.heading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: $color-darkblue;
+  &--s {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

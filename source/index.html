@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pink — главная страница</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="node_modules/svgxuse/svgxuse.js"></script>
   </head>
   <body>
 
     <header class="page-header">
       <nav class="main-nav">
         <a class="logo" href="#">
-          <img class="logo__img" src="https://via.placeholder.com/350x150" width="75" height="22" alt="Pink">
+          <img class="logo__img" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Pink">
         </a>
         <button class="main-nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
@@ -37,25 +38,25 @@
       <h1 class="visually-hidden">Главная страница сайта «Pink»</h1>
 
       <section class="promo">
-        <h2 class="promo__heading heading">Взгляните на жизнь иначе!</h2>
+        <h2 class="promo__heading heading visually-hidden">Взгляните на жизнь иначе!</h2>
         <a class="button--get-app button" href="#">Скачать приложение</a>
         <ul class="app-platforms">
           <li class="app-platforms__item">
             <a href="#">
               <span class="visually-hidden">iOS</span>
-              <img class="app-platform__apple-img" src="https://via.placeholder.com/140x100" width="47" height="56" alt="iOS">
+              <img class="app-platform__apple-img" src="img/logo-apple.svg" width="47" height="56" alt="iOS">
             </a>
           </li>
           <li class="app-platforms__item">
             <a href="#">
               <span class="visually-hidden">Android</span>
-              <img class="app-platform__android-img" src="https://via.placeholder.com/140x100" width="43" height="47" alt="iOS">
+              <img class="app-platform__android-img" src="img/logo-android.svg" width="43" height="47" alt="Android">
             </a>
           </li>
           <li class="app-platforms__item">
             <a href="#">
               <span class="visually-hidden">Windows Phone</span>
-              <img class="app-platform__windows-img" src="https://via.placeholder.com/140x100" width="44" height="41" alt="iOS">
+              <img class="app-platform__windows-img" src="img/logo-microsoft.svg" width="44" height="41" alt="Windows">
             </a>
           </li>
         </ul>
@@ -66,28 +67,28 @@
         <h2 class="advantages__heading heading">Устали от серости мегаполиса? Нам есть, что вам предложить!</h2>
         <ul class="advantages__list">
           <li class="advantages__item">
-            <h3 class="advantages__item-heading">Поднимает настроение</h3>
+            <h3 class="advantages__item-heading heading--s">Поднимает настроение</h3>
             <p class="advantages__item-text">Приложение позволит вам победить осеннюю хандру и депрессию
                                             буквально в несколько кликов!</p>
           </li>
           <li class="advantages__item">
-            <h3 class="advantages__item-heading">Меняет мир вокруг</h3>
+            <h3 class="advantages__item-heading heading--s">Меняет мир вокруг</h3>
             <p class="advantages__item-text">Сделайте снимок и украсьте его смайликом или текстовой подписью,
                                             чтобы усилить эффект</p>
           </li>
           <li class="advantages__item">
-            <h3 class="advantages__item-heading">Заводит новых друзей</h3>
+            <h3 class="advantages__item-heading heading--s">Заводит новых друзей</h3>
             <p class="advantages__item-text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и
                                             заводите новых</p>
           </li>
         </ul>
-        <img class="advantages__img" src="https://via.placeholder.com/350x150" width="157" height="320" alt="Изображения iPhone">
+        <img class="advantages__img" src="img/iphone-screen-mobile@1x.png" width="157" height="320" alt="Всем привет!">
       </section>
 
       <section class="reviews">
         <ul class="reviews__list">
           <li class="reviews__item">
-            <h3 class="reviews__author">Николай Петров</h3>
+            <h3 class="reviews__author heading--s">Николай Петров</h3>
             <p class="reviews__text">«Это приложение перевернуло мой мир
                                     и позволило по-новому взглянуть на
                                     привычные серые вещи! А еще я
@@ -106,10 +107,9 @@
       <section class="prices">
         <table class="prices__table">
           <tr>
-            <th></th>
-            <th>База<br> 1,99 USD</th>
-            <th>Стандарт<br> 3,99 USD</th>
-            <th>АНЛИМ<br> 9,99 USD</th>
+            <th><span class="prices__program">База</span><br> <span class="prices__cost">1,99 USD</span></th>
+            <th><span class="prices__program">Стандарт</span><br> <span class="prices__cost">3,99 USD</span></th>
+            <th><span class="prices__program">АНЛИМ</span><br> <span class="prices__cost">9,99 USD</span></th>
           </tr>
           <tr>
             <td>Розовый фильтр</td>
@@ -143,23 +143,23 @@
 
         <ul class="contacts__list">
           <li class="contacts__item">
-            <b class="contacts__caption">Звоните:</b>
-            <span class="contacts__item">+7 (812) 555-66-66</span>
+            <b class="contacts__caption heading--s">Звоните:</b>
+            <span class="contacts__info">+7 (812) 555-66-66</span>
           </li>
           <li class="contacts__item">
-            <b class="contacts__caption">Пишите:</b>
-            <span class="contacts__item">mail@htmlacademy.ru</span>
+            <b class="contacts__caption heading--s">Пишите:</b>
+            <span class="contacts__info">mail@htmlacademy.ru</span>
           </li>
           <li class="contacts__item">
-            <b class="contacts__caption">Приезжайте в гости:</b>
-            <span class="contacts__item">ул. Большая
+            <b class="contacts__caption heading--s">Приезжайте в гости:</b>
+            <span class="contacts__info">ул. Большая
                                             Конюшенная, 19/8</span>
           </li>
         </ul>
       </section>
 
       <section class="map">
-        <img class="map-img" src="https://via.placeholder.com/350x150" width="320" height="645" alt="Карта">
+        <img class="map-img" src="img/bg-map-mobile@1x.png" width="320" height="645" alt="Карта">
       </section>
     </main>
 

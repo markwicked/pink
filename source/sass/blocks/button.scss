@@ -1,0 +1,59 @@
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  min-width: 280px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+  &--get-app {
+    color: #ffffff;
+    &:hover {
+      color: $color-darkblue;
+      background-color: #ffffff;
+    }
+    &:active {
+      color: rgba(210, 40, 86, 0.3);
+    }
+  }
+  &--like {
+    min-width: 120px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    color: $color-pink;
+    text-transform: uppercase;
+  }
+  &--upload {
+    color: $color-pink;
+    border-color: $color-pink;
+    &:hover {
+      color: #fff;
+      background-color: $color-pink;
+    }
+    &:active {
+      color: rgba(255, 255, 255, 0.3);
+    }
+  }
+  &--cancel {
+    color: rgba(40, 54, 60, 0.1);
+    border-color: #dddfe0;
+    &:hover {
+      color: rgba(40, 54, 60, 0.3);
+      border-color: #b5b9be;
+    }
+    &:active {
+      color: rgba(255, 255, 255, 0.3);
+      background-color: #b5b9be;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+  }
+}
