@@ -38,6 +38,6 @@
     "source/sass/**/*.scss"
   ],
   "dependencies": {
-    "svgxuse": "^1.2.6"
+    "svg4everybody": "^2.1.9"
   }
 }
