@@ -1,23 +1,14 @@
 .menu-list {
   @include list-reset();
   color: #ffffff;
+
+  &--closed {
+    display: none;
+  }
 }
 
 .menu-list__item {
   position: relative;
-
-  a {
-    display: block;
-    padding-top: 18px;
-    padding-bottom: 16px;
-    @include padding();
-    font-size: 18px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
 
   &::before {
     position: absolute;
@@ -43,5 +34,29 @@
     &::after {
       box-shadow: none;
     }
+  }
+}
+
+.menu-list__item a {
+  display: block;
+  padding-top: 18px;
+  padding-bottom: 16px;
+  @include padding();
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .20s ease-in-out;
+}
+
+.menu-list__item a[href] {
+  &:hover {
+    color: $color-pink;
+  }
+
+  &:active {
+    opacity: 0.3;
   }
 }

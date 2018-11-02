@@ -1,3 +1,39 @@
 .logo {
   display: inline-block;
+  font-size: 0;
+}
+
+.logo[href]:hover path {
+  fill: $color-pink;
+  transition: .20s ease-in-out;
+}
+
+.logo[href]:active path {
+  opacity: 0.3;
+}
+
+.logo-svg__mobile {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.logo-svg__tablet {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.logo-svg__desktop {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
+  }
 }

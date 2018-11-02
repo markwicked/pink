@@ -14,7 +14,7 @@
   height: 4px;
   border-radius: 2px;
   background-color: #fff;
-  transition: .25s ease-in-out;
+  transition: .20s ease-in-out;
 
   &:nth-child(1) {
     top: 0;
@@ -28,6 +28,14 @@
   &:nth-child(4) {
     top: 20px;
   }
+}
+
+.hamburger:hover .hamburger__line {
+  background-color: $color-pink;
+}
+
+.hamburger:active .hamburger__line {
+  opacity: 0.3;
 }
 
 .hamburger--open .hamburger__line:nth-child(1) {
