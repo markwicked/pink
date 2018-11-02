@@ -3,12 +3,16 @@
   font-size: 0;
 }
 
-.logo[href]:hover path {
-  fill: $color-pink;
+.logo[href] path {
   transition: .20s ease-in-out;
 }
 
-.logo[href]:active path {
+.logo[href]:hover path {
+  fill: $color-pink;
+}
+
+.logo[href]:active path:not(.logo-svg__star) {
+  fill: #fff;
   opacity: 0.3;
 }
 
