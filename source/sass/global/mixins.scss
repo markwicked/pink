@@ -9,3 +9,8 @@
   padding: 0;
   border: none;
 }
+
+@mixin padding() {
+  padding-left: 20px;
+  padding-right: 20px;
+}
